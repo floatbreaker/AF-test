@@ -1,9 +1,8 @@
-@media (min-width: 320px) {
-
 html, body {
     padding: 0;
     margin: 0;
-    height: 100%;
+    min-height: 100%;
+    min-width: 320px;
 }
 
 body {
@@ -46,7 +45,7 @@ a {
 }
 
 .header__menu {
-    padding: 0 5px 17px 0;
+    padding: 0 8px 17px 0;
     display: flex;
     margin: 0;
     flex-direction: row;
@@ -59,7 +58,7 @@ a {
 
 .header__menu.menu .menu__item {
     font-size: 12px;
-    padding: 0 4px 0 6px;
+    padding: 0 4px 0 4px;
     text-decoration: underline;
 }
 
@@ -148,7 +147,7 @@ a {
 
 .content__image {
     float: left;
-    margin: 2px 18px 0 0;
+    margin: 5px 17px 0 0;
 }
 
 .aside_right {
@@ -206,13 +205,11 @@ a {
     font-size: 12px;
     text-align: center;
     margin-top: 17px;
+    margin-bottom: 20px;
 }
 
 
-}
-
-
-@media (min-width: 481px) and (max-width: 780px) {
+@media (min-width: 481px) {
 
 .body__content {
     margin: 15px;
@@ -229,7 +226,7 @@ a {
 }
 
 .header__menu {
-    padding: 0 5px 17px 0;
+    padding: 0 16px 17px 0;
 }
 
 .header__menu.menu .menu__item {
@@ -252,6 +249,10 @@ a {
     padding-left: 1px;
 }
 
+.content__image {
+    margin-top: 4px;
+}
+
 .aside__articles-wrapper {
     padding: 20px 20px 20px 22px;
 }
@@ -262,7 +263,7 @@ a {
 }
 
 .aside_right .article__item {
-    flex: 1 0 236px;
+    max-width: 236px;
     box-sizing: border-box;
 }
 
@@ -276,6 +277,7 @@ a {
 
 .copyright {
     margin-top: 7px;
+    margin-bottom: 30px;
 }
 
 }
@@ -297,7 +299,7 @@ a {
 }
 
 .header__menu {
-    padding: 0 16px 17px 0;
+    padding: 0 10px 16px 0;
 }
 
 .main {
@@ -330,11 +332,11 @@ a {
 }
 
 .content {
-    padding: 21px 15px 56px 27px;
+    padding: 20px 15px 56px 27px;
 }
 
 .content__header {
-    margin-bottom: 18px;
+    margin-bottom: 19px;
 }
 
 .content__text {
@@ -342,7 +344,7 @@ a {
 }
 
 .content__image {
-    margin: 0 20px 0 0;
+    margin: 5px 18px 10px 0;
 }
 
 .aside_right {
@@ -351,19 +353,27 @@ a {
 }
 
 .aside__articles-wrapper {
-    padding: 21px 12px 50px 13px;
+    padding: 21px 11px 50px 13px;
+}
+
+.articles-wrapper {
+    display: block;
 }
 
 .aside_right .article__item {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .aside_right .article__item-padding-left {
     padding-left: 0;
 }
 
+.aside_right .article__item .article__header_margin_bottom {
+    margin-bottom: 3px;
+}
+
 .copyright {
-    margin-top: 15px;
+    margin-top: 0;
 }
 
 }
