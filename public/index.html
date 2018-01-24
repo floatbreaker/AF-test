@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div class="body__content body__content-box-shadow">
+    <div class="body__content body__content--box-shadow">
 
         <header class="header">
 
@@ -24,15 +24,17 @@
             </div>
 
             
-            <ul class="header__menu menu">
+            <ul class="header__menu">
 
-                <li class="menu__item menu-item-border-right">
+                <li class="menu__item">
                     <a href="#" class="menu__link">Menu 1</a>
                 </li>
-                <li class="menu__item menu-item-border-left menu-item-border-right">
+
+                <li class="menu__item">
                     <a href="#" class="menu__link">Menu 2</a>
-                </li>   
-                <li class="menu__item menu-item-border-left">
+                </li>
+
+                <li class="menu__item">
                     <a href="#" class="menu__link">Menu 3</a>
                 </li>
 
@@ -42,14 +44,14 @@
 
         <main class="main">
 
-            <aside class="aside_left">
+            <aside class="aside__left">
 
-                <ul class="aside__menu menu">
+                <ul class="aside__menu">
 
-                    <li class="menu__item menu__item_margin_bottom"><a href="#" class="menu__link">Menu 1</a></li>
-                    <li class="menu__item menu__item_margin_bottom"><a href="#" class="menu__link">Menu 2</a></li>
-                    <li class="menu__item menu__item_margin_bottom"><a href="#" class="menu__link">Menu 3</a></li>
-                    <li class="menu__item menu__item_margin_bottom menu__item-selected"><span class="menu__link active">Menu 4 (current)</span></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Menu 1</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Menu 2</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Menu 3</a></li>
+                    <li class="menu__item menu__item--selected"><span class="menu__link">Menu 4 (current)</span></li>
                     <li class="menu__item"><a href="#" class="menu__link">Menu 5</a></li>
 
                 </ul>
@@ -57,7 +59,7 @@
             </aside>
 
 
-            <section class="content-wrapper">
+            <section class="content__wrapper">
 
                 <div class="content">
 
@@ -86,41 +88,49 @@
             </section>
 
 
-            <aside class="aside_right">
+            <aside class="aside__right">
 
-                <div class="aside__articles-wrapper">
+                <div class="aside__wrapper">
 
                     <div class="aside__header">
+
                         <h3>Right side</h3>
+
                     </div>
 
-                    <div class="articles-wrapper">
+                    <div class="articles__wrapper">
 
-                        <div class="article__item article__item-margin-bottom">
-                            <h3 class="article__header article__header_margin_bottom">
+                        <div class="article__item">
+
+                            <h3 class="article__header">
                                 Duis at sapien lectus.
                             </h3>
                             <p class="article__text">
                                 Donec a sagittis tortor, et placerat ipsum. Nam iaculis libero metus, a placerat eros molestie non.
                             </p>
+
                         </div>
 
-                        <div class="article__item article__item-padding-left article__item-margin-bottom">
-                            <h3 class="article__header article__header_margin_bottom">
+                        <div class="article__item">
+
+                            <h3 class="article__header">
                                 Integer eget magna dui.
                             </h3>
                             <p class="article__text">
                                 Cras eleifend eget justo id volutpat. Nulla vel mauris vitae magna congue porttitor ut ac leo.
                             </p>
+
                         </div>
 
-                        <div class="article__item article__item-padding-left">
-                            <h3 class="article__header article__header_margin_bottom">
+                        <div class="article__item">
+
+                            <h3 class="article__header">
                                 Cras eu scelerisque augue
                             </h3>
                             <p class="article__text">
                                 Vestibulum lorem nibh, viverra non metus non, semper sodales eros. Proin nisi nulla, egestas dictum arcu eget, auctor tincidunt nisl. Nunc in suscipit purus.
                             </p>
+
                         </div>
 
                     </div>
